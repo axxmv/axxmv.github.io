@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(133, 161, 135);  
+            margin: 0;
+        }
+
+        h3 {
+            color: rgb(216, 220, 229);
+            font-size: 50px;
+            text-align: center;
+            margin-top: 20px;
+            margin-right: 20px;
+            
+        }
+        
+            
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            border: 0px solid #ddd;
+            border-radius: 15px;
+            margin: 20px;
+            background-image: url('poppy.jpg');
+            background-color: rgb(87, 66, 78);
+            padding: 20px;
+
+        }
+        
+        a.flex-link {
+            text-decoration: none;
+            color: rgb(169, 48, 76);
+            font-weight: bold;
+        }
+
+        p{
+            color: rgb(48, 151, 169);
+            font-size: medium;
+        }
+ 
+        .block { 
+            display: flex; /* Using flexbox to arrange content horizontally */
+            align-items: center; /* Vertically center the content */
+            justify-content: space-between; /* This ensures the h3 text is on the left and the image is on the right */
+            width: 80%; /* Control the width of the block */
+            max-width: 900px; /* Optional: You can limit the maximum width of the block */
+            margin: 20px auto; /* This centers the block on the page horizontally */
+            padding: 20px;
+            border-radius: 15px;
+        }
+        .block h4 {
+            color: rgb(67, 49, 40);
+            font-size: 35px;
+            align-items: center;
+            translate: translateX(40px);
+            margin-top: -50px;
+            margin-left: -100px;
+        }
+
+        .block a {
+            text-decoration: none;
+            color: rgb(52, 47, 41);
+            font-weight: bold;
+            margin-bottom: 0px;
+            margin-left: 0px;
+        }
+       
+
+        .block img {
+            width: 400px;
+            height: 400px;
+            object-fit: cover; 
+            border-radius: 8px;
+            margin-left:auto;
+        }
+
+        .bag {
+            width: 45%;              
+            margin-bottom: 100px;       
+            object-fit: cover;
+
+
+        }
+        .block .content {
+            display: block;
+            flex-direction: column; /* Stack the title and link vertically */
+            justify-content: center;
+            align-items: flex-start;
+            margin-right: 20px; /* Space between text and image */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h3>Birthday Wishlist</h3>
+    </div>
+    
+    <div class = "block">
+        <a href = "https://www.coachoutlet.com/products/gallery-tote-bag/CV402.html?frp=CV402+IMBLK" target = "_blank"> Click Here </a>
+        <h4>coachbag</h4>
+        <img src = "bag.jpg" alt = ":(" class = "bag">
+        
+    </div>
+    <div class = "block">
+        
+        <a href = "https://www.freepeople.com/uk/shop/reebok-club-c-revenge-sneakers/?category=SEARCHRESULTS&color=024&searchparams=q=reebok&type=REGULAR&quantity=1" target = "_blank">Click Here</a>
+        <h4>Reebok Classic trainers</h4>
+        <img src = "reebok.jpg" alt = :( class = "bag">
+    </div>
+
+    <div class = "block">
+        <a href = "https://www.amazon.com/dp/B0CWNVV16D/ref=sspa_dk_offsite_pinterest_search_1?aaxitk=9094c81e95f28dd1b21781e167e55637&tqtoken=AgR4WNUmlSAxMo-EJz0sj-NG2MQ4pa7MgTfyggUWbu5JhXAAGgABAAlyZWNpcGllbnQAC0FtYXpvbkFkc1RRAAEAEWF3cy1rbXMtaGllcmFyY2h5ACRiM2NlMjE3OS0wMzJhLTQ5NTAtOWFlZC00MTczZDMxZmNhMmEAXNdNhwzJlu0fBqpdDcE--idwakLqEN5_o4lnWzHtK8nXMwFE6ZdgvB9GW5UInBU3GhEnGJ4K9ynCFn6BpVsq9J3aFWp1WcUnJF-7EcSJfp5gw8kePPEn6Mpugi0_AgAAEABoRQqZzOLAOlRfCdUJZR4JJcwiDWFAR4qCGWak-Ne_D_jO_Y9zozY93tuc1n_Iwg7_____AAAAAQAAAAAAAAAAAAAAAQAAABuUarY04jS04O510oWAbmQaq0KTKTYp2DDGTuVPDHnL-87U-Sxi4K0sw05b&offsiteFlag=1&tag=cashpadpinde-20&hvexpln=apex1&th=1" target = "_blank">Click Here</a>
+        <h4>Floral Lamp</h4>
+        <img src = "flower.jpg" alt = ;( class = "bag">
+    </div>
+    <div class = block>
+        <a href =  "https://soldejaneiro.com/products/cheirosa-59-perfume-mist?variant=40457357295718"target = "blank" >Click Here</a>
+        <h4>Sol de Janeiro</h4>
+        <img src = "sol.jpg" alt = :( class = "bag">
+    </div>
+    <div class = "block">
+        <a href = "https://www.amazon.com/Portable-Lightweight-Hairdryer-Blowdryer-Concentrator/dp/B089SLN2DC/ref=sr_1_5?crid=336XLU6QPK4P2&dib=eyJ2IjoiMSJ9.zPs8qtxaKCoPemMuc6k0_uxnJleRjMNxs75qmuCE0BHgbHjUIr6le80NIphIAqTecjTibz3Fb5X5NGnXq4gbngAUnyCWbWAdk6AXtKLuV3b32HthBNtneImAheEmL1bmwl7tPfSZGHEWB2inkITU--otIPxKZuqQJvLEa-xL4iydPyBGkG6yhOaQFOTcLBkLesUahCA635d3QXsa36maaGPfw0bADa5yIZ7cPAXJP8HZR6OX0L1mdcLMuyjKZJs6djOXoVgaVk4tqGzyTD6hM46HapvVicL4Ztyn9FP76GPAkhPA4m6RRUSvjt3_pj3N9ptmAX-TiUBVoAHl4yzyOYw-gL07Wb04KjMoRqMCaUpCPguaABsJRviy2AaDUUN5VtBD243BjwFdjZj9TPMKxRxzy0WeO9yIcZkppbtEIb5UyPh9PfTZnNf9b5mQrFYZ.3D_YuE3ntBEV-i2APALvsc2zHanEs_9JTVjeQqYTYws&dib_tag=se&keywords=confu%2Bhair%2Bdryer&qid=1743133768&sprefix=confu%2B%2Caps%2C146&sr=8-5&th=1" target = "_blank">Click Here</a>
+        <h4>Hair Drier</h4>
+        <img src = "hair.jpg" alt = :( class = "bag">
+    </div>
+    <div class = "block">
+        <a href = "https://www.amazon.com/Inheritance-Games-Jennifer-Lynn-Barnes/dp/0759555400/ref=sr_1_3?crid=23MIEI2BLPBPQ&dib=eyJ2IjoiMSJ9.pdMpN_3Vps6OtQKSHi7nDuFdOTolFKyhpf3uGyvYvKdSFuzDMzjrPYt5diPaF8aEQXnN-usqNxdqV8fE_co4FQLFyzAchG6_UnYgR0glM3fEGcd1QvErNOh4xj_vs-HDSQ9RZSQ_kvh2sAdLv8oQZBl3xPVnuZ3N9I6pY51a8Qxfaro5p0-Qm9bC-rP_w8NlLtZnGc30UAIn5tJP18IhMM-g7z0rLyMK0sB7ge7DmrM.slgNlybv5hvanwS4QO-7G7Ha1W0Jj4acBP87ffoQLDI&dib_tag=se&keywords=inheritance+games&qid=1743134266&sprefix=inher%2Caps%2C168&sr=8-3" target = "_blank">Click Here</a>
+        <h4>Inheritance Games</h4>
+        <img src = "book.jpg" alt = :( class = "bag">
+    </div>
+    <div class = "block">
+        <a href = "https://www.amazon.com/Stolen-Heir-Boxed-Set/dp/0316571652/ref=sr_1_1?crid=1FJW3RGWHD26&dib=eyJ2IjoiMSJ9.LlMXohw7sit-hfZza1mg7B75Z9P95BUB_U6v687d5w6aRGrvlLAK_3Av3DYsYZzkCKmPsqJ48mql0BTDf0PSuvvoxXJBKddFDjN7_EcCCBqTIKLLfndS21iNQD6WQDRm1cSv1ZHJKKxn_PbAIMUk5PPH4J4HFZfDEoaPy9JCsOIYWCE7XhBGfsM94pZi6yARqMxOm-DIGiPSm6xPsI3UeDs8X9X6CvanLWT7pYIIP3o.NHLGFM_xDWoyjrkFnjjOsGGeDpoQN1FoK5tFC-bM9cg&dib_tag=se&keywords=stolen+heir&qid=1743134472&sprefix=stolen+heir%2Caps%2C174&sr=8-1" target = "_blank">Click Here </a>
+        <h4>Stolen Heir</h4>
+        <img src = "book2.jpg" alt = :( class = "bag">
+    </div>
+</body>
+</html>
